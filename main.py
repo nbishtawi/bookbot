@@ -12,8 +12,6 @@ if len(sys.argv) != 2:
 
 file_path = sys.argv[1]
 
-
-
 book = get_book_text(file_path)
 total_words = get_num_words(book) 
 total_letters = get_num_character(book)
